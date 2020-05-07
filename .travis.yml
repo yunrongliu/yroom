@@ -5,7 +5,7 @@ services:
   - docker
 
 before_install:
-  - cnpm install
+  - npm install
 
 script:
   - npm run build
